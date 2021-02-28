@@ -8,6 +8,7 @@
    
 }
 
+/* Mobile first design, main layout is for screens with width below 700px */
 body {
     font-family: Arial, sans-serif;
     font-size: 8px;
@@ -113,6 +114,7 @@ footer > h2 {
     height: 35%;
 }
 
+/* Placeholer images due to lack of personal projects as yet */
 .balloons {
      background-image: url("../assets/pictures/balloons-img.jpg");
 }
@@ -132,10 +134,8 @@ footer > h2 {
 .lego {
     background-image: url("../assets/pictures/lego-img.jpg");
 }
-/* under 700px- mobile
-700-1330px- tablet
-over 1330px- laptop*/
 
+/* Tablet layout, min screen width 700px */
 @media only screen and (min-width: 700px) {
 
     header {
@@ -161,6 +161,7 @@ over 1330px- laptop*/
     }
 }
 
+/* Desktop layout, min screen layout 1025px */
 @media only screen and (min-width: 1025px) {
 
     .about-me > h2 {
