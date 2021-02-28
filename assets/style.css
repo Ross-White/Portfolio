@@ -8,15 +8,34 @@
    
 }
 
+body {
+    font-family: Arial, sans-serif;
+}
+
 header {
     color: var(--primary);
     background-color: var(--secondary);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav a{
+    margin-right: 15px;
+    color: var(--primary);
+    
 }
 
 
 main {
     color: var(--secondary);
     background-color: var(--primary);
+}
+
+.avatar-img {
+    border-radius: 50%;
+    margin: 2%;
 }
 
 .page-section {
@@ -31,11 +50,6 @@ main {
     border-right: 3px;
     margin-right: 5%;
 
-}
-
-.page-section > aside {
-    display: flex;
-    flex-direction: column;
 }
 
 .flex-container {
@@ -54,6 +68,8 @@ main {
     border-radius: 15%;
     background-color: var(--primary);
     margin: 2px;
+    text-align: center;
+    
 }
 
 .flex-item:first-child {
