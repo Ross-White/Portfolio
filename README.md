@@ -10,13 +10,13 @@ Creating a professional portfolio of my work to showcase my skills for prospecti
 # Images of application
 
 * Mobile layout
-(Portfolio\assets\pictures\Mobile-layout.JPG)
+![Mobile](./assets/pictures/Mobile-layout.JPG)
 
 * Tablet Layout
-(Portfolio\assets\pictures\Tablet-layout.JPG)
+![Tablet](./assets/pictures/Tablet-layout.JPG)
 
 * Desktop Layout
-(Portfolio\assets\pictures\Desktop-layout.JPG)
+![Desktop](./assets/pictures/Desktop-layout.JPG)
 
 # Link to depolyed application
 
