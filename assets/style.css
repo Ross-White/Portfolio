@@ -17,16 +17,24 @@ header {
     color: var(--primary);
     background-color: var(--secondary);
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
 }
 
-header h1 {
+h1 {
     font-size: 5em;
 }
 
-nav a{
+h2 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 4em;
+  }
+}
+
+nav > a{
     margin-right: 15px;
     color: var(--primary);
     font-size: 2em;
@@ -36,6 +44,23 @@ nav a{
 main {
     color: var(--secondary);
     background-color: var(--primary);
+    justify-content: center;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+footer {
+    background-color: var(--secondary);
+    color: var(--primary);
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.address > a {
+    color: var(--primary);
+    text-size: 3em;
 }
 
 .avatar-img {
@@ -48,28 +73,20 @@ main {
     flex-direction: row;
 }
 
-.page-section > h2{
-    flex: 0 0 20%;
-    font-size: 4em;
-    text-align: right;
-    border-right: 3px;
-    margin-right: 5%;
-
-}
-
 .flex-container {
     display: flex;
-    flex: 0 0 70%;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex: 1 0;
+    flex-direction: column;
+    justify-content: center;
     align-items: flex-end;
-    height: 800px;
+    height: auto;
 }
 
 .flex-item {
-    height: 30%;
-    flex: 0 0 40%;
+    height: 25%;
+    width: 96%;
+    min-height: 200px;
+    flex: 1 0 auto;
     margin: 2%;
     border: 5px solid var(--secondary);
     border-radius: 15%;
@@ -80,10 +97,12 @@ main {
     color: var(--primary);
     font-size: 3em;
     text-decoration: underline;
+    text-shadow: 2px 2px var(--secondary);
 }
 
 .flex-item:first-child {
     flex: 0 0 96%;
+    height: 35%;
 }
 
 .balloons {
@@ -108,3 +127,32 @@ main {
 /* under 700px- mobile
 700-1330px- tablet
 over 1330px- laptop*/
+
+/* @media only screen and (min-width: 700px) {
+    h2{
+        flex: 0 0 20%;
+        font-size: 4em;
+        text-align: right;
+        border-right: 3px;
+        margin-right: 5%;
+    } 
+    
+    .flex-container {
+        display: flex;
+        flex: 1 0 70%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-end;
+        height: auto;
+}
+
+    .flex-item {
+        height: 25%;
+        min-height: 200px;
+        flex: 1 1 40%;
+}
+ */
+
+
+}
