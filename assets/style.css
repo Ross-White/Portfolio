@@ -31,7 +31,6 @@ h2 {
     margin-bottom: 10px;
     text-align: center;
     font-size: 4em;
-  }
 }
 
 nav > a{
@@ -60,7 +59,7 @@ footer {
 
 .address > a {
     color: var(--primary);
-    text-size: 3em;
+    font-size: 3em;
 }
 
 .avatar-img {
@@ -128,14 +127,7 @@ footer {
 700-1330px- tablet
 over 1330px- laptop*/
 
-/* @media only screen and (min-width: 700px) {
-    h2{
-        flex: 0 0 20%;
-        font-size: 4em;
-        text-align: right;
-        border-right: 3px;
-        margin-right: 5%;
-    } 
+@media only screen and (min-width: 700px) {
     
     .flex-container {
         display: flex;
@@ -145,14 +137,22 @@ over 1330px- laptop*/
         justify-content: space-between;
         align-items: flex-end;
         height: auto;
-}
+    }
 
     .flex-item {
         height: 25%;
         min-height: 200px;
         flex: 1 1 40%;
+    }
 }
- */
 
+/* @media only screen and (min-width: 1330px) {
 
-}
+    h2{
+        flex: 0 0 20%;
+        font-size: 4em;
+        text-align: right;
+        border-right: 3px;
+        margin-right: 5%;
+    } 
+} */
