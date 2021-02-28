@@ -10,6 +10,7 @@
 
 body {
     font-family: Arial, sans-serif;
+    font-size: 8px;
 }
 
 header {
@@ -21,12 +22,16 @@ header {
     justify-content: space-between;
 }
 
+header h1 {
+    font-size: 5em;
+}
+
 nav a{
     margin-right: 15px;
     color: var(--primary);
+    font-size: 2em;
     
 }
-
 
 main {
     color: var(--secondary);
@@ -45,7 +50,7 @@ main {
 
 .page-section > h2{
     flex: 0 0 20%;
-    font-size: 2em;
+    font-size: 4em;
     text-align: right;
     border-right: 3px;
     margin-right: 5%;
@@ -54,29 +59,52 @@ main {
 
 .flex-container {
     display: flex;
+    flex: 0 0 70%;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-end;
-    height: 600px;
+    height: 800px;
 }
 
 .flex-item {
     height: 30%;
     flex: 0 0 40%;
+    margin: 2%;
     border: 5px solid var(--secondary);
     border-radius: 15%;
     background-color: var(--primary);
-    margin: 2px;
     text-align: center;
-    
+    background-size: 100%;
+    font-size: 2em;
+    color: var(--primary);
+    font-size: 3em;
+    text-decoration: underline;
 }
 
 .flex-item:first-child {
-    flex: 0 0 100%;
+    flex: 0 0 96%;
 }
 
+.balloons {
+     background-image: url("../assets/pictures/balloons-img.jpg");
+}
 
+.dog {
+    background-image: url("../assets/pictures/dog-img.jpg");
+}
+
+.pineapple {
+    background-image: url("../assets/pictures/pineapple-img.jpg");
+}
+
+.code {
+    background-image: url("../assets/pictures/code-img.jpg");
+}
+
+.lego {
+    background-image: url("../assets/pictures/lego-img.jpg");
+}
 /* under 700px- mobile
 700-1330px- tablet
 over 1330px- laptop*/
