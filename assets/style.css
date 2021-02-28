@@ -16,11 +16,10 @@ body {
 header {
     color: var(--primary);
     background-color: var(--secondary);
-    display: flex;
-    flex-wrap: wrap;
     align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 h1 {
@@ -55,9 +54,19 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+footer > h2 {
+    flex: 0 0 20%;
+    text-align: right;
+    border-right: 3px;
+    margin-right: 5%;
 }
 
 .address > a {
+    margin-right: 20px;
     color: var(--primary);
     font-size: 3em;
 }
@@ -65,6 +74,10 @@ footer {
 .avatar-img {
     border-radius: 50%;
     margin: 2%;
+}
+
+.bio-text {
+    font-size: 2em;
 }
 
 .flex-container {
@@ -124,6 +137,14 @@ footer {
 over 1330px- laptop*/
 
 @media only screen and (min-width: 700px) {
+
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between; */
+    }
     
     .flex-container {
         display: flex;
@@ -140,7 +161,7 @@ over 1330px- laptop*/
     }
 }
 
-@media only screen and (min-width: 1330px) {
+@media only screen and (min-width: 1025px) {
 
     .about-me > h2 {
         flex: 0 0 20%;
