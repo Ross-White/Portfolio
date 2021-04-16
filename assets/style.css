@@ -33,12 +33,12 @@ h2 {
     font-size: 4em;
 }
 
-nav > a{
+/* nav > a{
     margin-right: 15px;
     color: var(--primary);
     font-size: 2em;
     
-}
+} */
 
 main {
     color: var(--secondary);
@@ -72,16 +72,16 @@ footer > h2 {
     font-size: 3em;
 }
 
-.avatar-img {
+/* .avatar-img {
     border-radius: 50%;
     margin: 2%;
-}
+} */
 
 .bio-text {
     font-size: 2em;
 }
 
-.flex-container {
+/* .flex-container {
     display: flex;
     flex: 1 0;
     flex-direction: column;
@@ -89,29 +89,20 @@ footer > h2 {
     height: auto;
     margin-bottom: 2%;
     margin-top: 2%;
-}
+} */
 
-.flex-item {
-    margin: 1% 2% 1% 2%;
-    height: 20%;
-    width: 96%;
+.work-item {
+    /* margin: 2%;
+    width: 96%; */
     min-height: 180px;
-    flex: 1 0 auto;
     border: 5px solid var(--secondary);
-    border-radius: 15%;
     background-color: var(--primary);
     text-align: center;
-    background-size: 100%;
+    /* background-size: 100%; */
     font-size: 2em;
     color: var(--primary);
-    font-size: 3em;
     text-decoration: underline;
     text-shadow: 2px 2px var(--secondary);
-}
-
-.flex-item:first-child {
-    flex: 0 0 96%;
-    height: 35%;
 }
 
 /* Placeholer images due to lack of personal projects as yet */
