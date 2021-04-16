@@ -9,70 +9,67 @@
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-    <header class="block">
-        <figure class="image is-96x96">
-            <img class="is-rounded" src="assets\pictures\avatar-img.jpg" alt="Ross White profile pic"
-            width="10%" height="8%">
-        </figure>
-        <h1>Ross White</h1>
-        <nav class="navbar" role="navigation" aria-label="main navigation">
+    <header class="columns">
+        <div class="column is-7">
+            <h1>Ross White</h1>
+        </div>
+        <nav class="navbar column">
             <div class="navbar-brand">
+                <img src="assets\pictures\avatar-img.jpg" alt="Ross White profile pic" style="height: 100px;">
                 <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
                 </a>
             </div>
-            <div id="navbarMenu" class="navbar-menu">
-                <div class="navbar-start">
-                    <a class="navbar-item" href="#about-me">
-                        About Me
-                    </a>
-                    <a class="navbar-item" href="#work">
-                        Work
-                    </a>
-                    <a class="navbar-item" href="#contact-me">
-                        Contact Me
-                    </a>
-                </div>
+            <div class="navbar-menu" id="navbarMenu">
+                <a class="navbar-item" href="#about-me">
+                    About Me
+                </a>
+                <a class="navbar-item" href="#work">
+                    Work
+                </a>
+                <a class="navbar-item" href="#contact-me">
+                    Contact Me
+                </a>
             </div>
         </nav>
     </header>
 
     <main>
-        <section class="columns about-me" id="about-me">
-            <h2 class="column is-2">About Me</h2>
+        <section class="columns section about-me" id="about-me">
+            <h2 class="column is-3">About Me</h2>
             <div class="column">
                 <p class="bio-text">My name is Ross White, I am an aspiring web developer. Since 2009 I have been working in the hospitality industry, working as a Restaurant Manager, most recently at Hawksmoor Manchester.</p>
                 <p class="bio-text">The Covid-19 pandemic gave me time to reassess my career, and think about what would inspire me for many years to come. I looked into the option of becoming a web developer and chose a bootcamp as the best way for me to learn the skills that would allow me to start a new career.</p>
             </div>
         </section>
 
-        <section class="container tile is-ancestor" id="work">
+        <section class="container section tile is-ancestor" id="work">
             <div class="tile is-parent is-3">
                 <div class="tile is-child">
                     <h2>Work</h2>
                 </div>
             </div>
             <div class="tile is-5 is-parent">
-                <div class="tile is-child box work-item">    
-                    <a href="https://ross-white.github.io/team-trol/" target="_blank">WWWT</a>
-                </div>
+                <a href="https://ross-white.github.io/team-trol/" target="_blank"class="tile is-child box work-item WWWT">
+                    <h3>WWWT</h3>
+                </a>
             </div>   
             <div class="tile is-4 is-vertical is-parent">
-                <div class="tile is-child box work-item">    
-                    <a href="https://ross-white.github.io/Weather-Dashboard/" target="_blank">Weather Dashboard</a>
-                </div>
-                <div class="tile is-child box work-item">       
-                    <a href="https://ross-white.github.io/Code-Quiz/" target="_blank">Code Quiz</a>
-                </div>
-                <div class="tile is-parent">
-                    <div class="tile is-child box work-item">            
-                        <a href="#">Coming Soon</a>
-                    </div>
-                    <div class="tile is-child box work-item">            
-                        <a href="#">Coming Soon</a>
-                    </div>
+                <a href="https://ross-white.github.io/Weather-Dashboard/" target="_blank"class="tile is-child box work-item weather">
+                    <h3>Weather Dashboard</h3>
+                </a>
+                <a href="https://ross-white.github.io/Code-Quiz/" target="_blank"class="tile is-child box work-item code">
+                    <h3>Code Quiz</h3>
+                </a>
+                <div class="tile">
+                    <a href="#"class="tile is-child box work-item soon">
+                        <h3>Coming Soon</h3>
+                    </a>
+                    <a href="#"class="tile is-child box work-item soon">
+                        <h3>Coming Soon</h3>
+                    </a>
                 </div>
             </div>
         </section>
@@ -89,6 +86,6 @@
         </div>
     </footer>
 
-    
+<script src="./assets/scipt.js"></script>
 </body>
 </html>

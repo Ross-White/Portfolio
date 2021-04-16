@@ -15,10 +15,12 @@ body {
 }
 
 header {
+    display: flex;
+    flex-direction: row;
     color: var(--primary);
     background-color: var(--secondary);
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
     margin-left: 2%;
     margin-right: 2%;
 }
@@ -33,12 +35,19 @@ h2 {
     font-size: 4em;
 }
 
-/* nav > a{
+header > div {
+    text-align: center;
+}
+.navbar {
+    background-color: var(--secondary);
+    display: inline-flex;
+}
+
+.navbar-menu > a {
     margin-right: 15px;
     color: var(--primary);
-    font-size: 2em;
-    
-} */
+    font-size: 3em;
+}
 
 main {
     color: var(--secondary);
@@ -72,72 +81,54 @@ footer > h2 {
     font-size: 3em;
 }
 
-/* .avatar-img {
-    border-radius: 50%;
-    margin: 2%;
-} */
-
 .bio-text {
     font-size: 2em;
+    text-justify: distribute;
 }
 
-/* .flex-container {
-    display: flex;
-    flex: 1 0;
-    flex-direction: column;
-    justify-content: center;
-    height: auto;
-    margin-bottom: 2%;
-    margin-top: 2%;
-} */
-
 .work-item {
-    /* margin: 2%;
-    width: 96%; */
-    min-height: 180px;
+    min-height: 150px;
     border: 5px solid var(--secondary);
-    background-color: var(--primary);
+    background-color: black;
     text-align: center;
-    /* background-size: 100%; */
-    font-size: 2em;
+    background-size: 100%;
+    font-size: 3em;
     color: var(--primary);
     text-decoration: underline;
     text-shadow: 2px 2px var(--secondary);
 }
 
-/* Placeholer images due to lack of personal projects as yet */
-.balloons {
-     background-image: url("../assets/pictures/balloons-img.jpg");
+.WWWT {
+     background-image: url("../assets/pictures/WWWT.png");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
 }
 
-.dog {
-    background-image: url("../assets/pictures/dog-img.jpg");
-}
-
-.pineapple {
-    background-image: url("../assets/pictures/pineapple-img.jpg");
+.weather {
+    background-image: url("../assets/pictures/weather_dashboard.png");
 }
 
 .code {
+    background-image: url("../assets/pictures/code_quiz.png");
+}
+
+.soon {
     background-image: url("../assets/pictures/code-img.jpg");
 }
 
-.lego {
-    background-image: url("../assets/pictures/lego-img.jpg");
-}
-
 /* Tablet layout, min screen width 700px */
-@media only screen and (min-width: 700px) {
+/* @media only screen and (min-width: 700px) {
 
     header {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         flex-direction: row;
-        justify-content: space-between; */
-    }
+        justify-content: space-between;
+    } */ 
     
-    .flex-container {
+    /* .flex-container {
         display: flex;
         flex: 1 0 70%;
         flex-direction: row;
@@ -150,10 +141,10 @@ footer > h2 {
     .flex-item {
         flex: 1 1 40%;
     }
-}
+} */
 
 /* Desktop layout, min screen layout 1025px */
-@media only screen and (min-width: 1025px) {
+/* @media only screen and (min-width: 1025px) {
 
     .about-me > h2 {
         flex: 0 0 20%;
@@ -186,4 +177,4 @@ footer > h2 {
     .work > div {
         flex: 0 0 73%;
     }
-} 
+}  */
