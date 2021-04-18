@@ -9,31 +9,14 @@
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-    <header class="columns">
-        <div class="column is-7">
-            <h1>Ross White</h1>
+    <header>
+        <h1>Ross White</h1>
+        <div>
+            <a href="./assets/pictures/Ross_White_CV.pdf" dowload>
+                <img src="assets\pictures\avatar-img.jpg" alt="Ross White profile pic" style="height: 100px;" class="avatar-img">
+            </a>
+            <h3>Click to download C.V.</h3>
         </div>
-        <nav class="navbar column">
-            <div class="navbar-brand">
-                <img src="assets\pictures\avatar-img.jpg" alt="Ross White profile pic" style="height: 100px;">
-                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                </a>
-            </div>
-            <div class="navbar-menu" id="navbarMenu">
-                <a class="navbar-item" href="#about-me">
-                    About Me
-                </a>
-                <a class="navbar-item" href="#work">
-                    Work
-                </a>
-                <a class="navbar-item" href="#contact-me">
-                    Contact Me
-                </a>
-            </div>
-        </nav>
     </header>
 
     <main>
@@ -64,12 +47,16 @@
                     <h3>Code Quiz</h3>
                 </a>
                 <div class="tile">
-                    <a href="#"class="tile is-child box work-item soon">
-                        <h3>Coming Soon</h3>
-                    </a>
-                    <a href="#"class="tile is-child box work-item soon">
-                        <h3>Coming Soon</h3>
-                    </a>
+                    <div class="tile is-parent">
+                        <a href="#"class="tile is-child box work-item soon">
+                            <h3>Coming Soon</h3>
+                        </a>
+                    </div>
+                    <div class="tile is-parent">
+                        <a href="#"class="tile is-child box work-item soon">
+                            <h3>Coming Soon</h3>
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
