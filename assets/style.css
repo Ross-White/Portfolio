@@ -26,8 +26,12 @@ header {
     height: 20vh;
 }
 
-header > div {
+header > a {
+    display: flex;
+    flex-direction: row;
     align-items: center;
+    font-size: 3em;
+    color: var(--primary);
 }
 
 h1 {
