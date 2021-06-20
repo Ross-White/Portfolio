@@ -6,26 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio: Ross White</title>
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+
 </head>
 
 <body>
     <header>
         <h1>Ross White</h1>
-        <a class="row" href="./assets/pictures/Ross_White_CV.pdf" download>
-            <img src="assets\pictures\avatar-img.jpg" alt="Ross White profile pic" style="height: 100px;"
-                class="avatar-img">
-            <h3>C.V.</h3>
-        </a>
     </header>
 
     <main>
 
-        <section class="grid grid-cols-1 md:grid-cols-4 grid-rows-2 gap-4 p-4" id="about-me">
+        <section class="grid grid-cols-1 md:grid-cols-4 gap-4 p-4" id="about-me">
             <h2 class="float-left">About Me</h2>
-            <div class="col-span-3">
-                <p class="bio-text">My name is Ross White, coding bootcamp graduate. Full stack web developer using
+            <div class="col-span-3 space-y-8">
+                <p class="bio-text">Coding bootcamp graduate. Full stack web developer using
                     Node, MySQL, Sequelize, Express. </p>
                 <p class="bio-text">Previously over 10 years management expereince in the hospitality industry. My
                     expertise encompasses recruiting, training and developing teams of 20 to produce outstanding results
@@ -34,57 +31,72 @@
             </div>
         </section>
 
-        <section class="grid grid-cols-1 md:grid-cols-3 grid-rows-2 gap-4 p-4" id="work">
-            <div class="float-left row-span-2">
+        <section class="grid grid-cols-1 md:grid-cols-4 grid-rows-2 gap-4 p-4" id="work">
+            <div class="float-left row-span-2 content-center">
                 <h2>Work</h2>
             </div>
-            <a href="https://ross-white.github.io/team-trol/" target=" _blank" class="max-w-sm rounded overflow-hidden shadow-lg">
-                <img class="w-full lazy" src="./assets/pictures/WWWT.png" alt="GumFree">
-                <div class="px-6 py-4">
-                  <div class="font-bold text-xl mb-2">WWWT</div>
-                  <p class="text-gray-700 text-base">
-                    Full stack application using Node, Express, MySQL, Sequelize, Handlebars.
-                  </p>
-                </div>
-            </a>
-            <a href="https://ross-white.github.io/Weather-Dashboard/" target=" _blank" class="max-w-sm rounded overflow-hidden shadow-lg">
-                <img class="w-full lazy" src="./assets/pictures/weather_dashboard.png" alt="GumFree">
-                <div class="px-6 py-4">
-                  <div class="font-bold text-xl mb-2">Weather Dashboard</div>
-                  <p class="text-gray-700 text-base">
-                    Full stack application using Node, Express, MySQL, Sequelize, Handlebars.
-                  </p>
-                </div>
-            </a>
-            <a href="https://ross-white.github.io/Code-Quiz/" target=" _blank" class="max-w-sm rounded overflow-hidden shadow-lg">
-                <img class="w-full lazy" src="./assets/pictures/code_quiz.png" alt="GumFree">
-                <div class="px-6 py-4">
-                  <div class="font-bold text-xl mb-2">Code Quiz</div>
-                  <p class="text-gray-700 text-base">
-                    Full stack application using Node, Express, MySQL, Sequelize, Handlebars.
-                  </p>
-                </div>
-            </a>
-            <a href="https://gum-free.herokuapp.com/" target=" _blank" class="max-w-sm rounded overflow-hidden shadow-lg">
+            <a href="https://gum-free.herokuapp.com/" target=" _blank"
+                class="opacity-75 hover:opacity-100 max-w-sm rounded overflow-hidden shadow-lg">
                 <img class="w-full lazy" src="./assets/pictures/gumfree.png" alt="GumFree">
                 <div class="px-6 py-4">
-                  <div class="font-bold text-xl mb-2">GumFree</div>
-                  <p class="text-gray-700 text-base">
-                    Full stack application using Node, Express, MySQL, Sequelize, Handlebars.
-                  </p>
+                    <div class="font-bold text-xl mb-2">GumFree</div>
+                    <p class="text-gray-700 text-base">
+                        Full stack application using Node, Express, MySQL, Sequelize, Handlebars.
+                    </p>
                 </div>
             </a>
+            <a href="https://ross-white-tech-blog.herokuapp.com/" target=" _blank"
+                class="opacity-75 hover:opacity-100 max-w-sm rounded overflow-hidden shadow-lg">
+                <img class="w-full lazy" src="./assets/pictures/tech_blog.png" alt="GumFree">
+                <div class="px-6 py-4">
+                    <div class="font-bold text-xl mb-2">Tech Blog</div>
+                    <p class="text-gray-700 text-base">
+                        Full stack application using Node, Express, MySQL, Sequelize, Handlebars.
+                    </p>
+                </div>
+            </a>
+            <a href="https://ross-white.github.io/team-trol/" target=" _blank"
+                class="opacity-75 hover:opacity-100 max-w-sm rounded overflow-hidden shadow-lg">
+                <img class="w-full lazy" src="./assets/pictures/WWWT.png" alt="GumFree">
+                <div class="px-6 py-4">
+                    <div class="font-bold text-xl mb-2">WWWT</div>
+                    <p class="text-gray-700 text-base">
+                        Front end app, in Javascript. Using multiple third party APIs.
+                    </p>
+                </div>
+            </a>
+            <a href="https://ross-white.github.io/Weather-Dashboard/" target=" _blank"
+                class="opacity-75 hover:opacity-100 max-w-sm rounded overflow-hidden shadow-lg">
+                <img class="w-full lazy" src="./assets/pictures/weather_dashboard.png" alt="GumFree">
+                <div class="px-6 py-4">
+                    <div class="font-bold text-xl mb-2">Weather Dashboard</div>
+                    <p class="text-gray-700 text-base">
+                        Front end app, in Javascript. Using Open Weather API and utilising local storage.
+                    </p>
+                </div>
+            </a>
+            <a href="https://ross-white.github.io/Code-Quiz/" target=" _blank"
+                class="opacity-75 hover:opacity-100 max-w-sm rounded overflow-hidden shadow-lg">
+                <img class="w-full lazy" src="./assets/pictures/code_quiz.png" alt="GumFree">
+                <div class="px-6 py-4">
+                    <div class="font-bold text-xl mb-2">Code Quiz</div>
+                    <p class="text-gray-700 text-base">
+                        Front end app, in Javascript. Utilising local storage.
+                    </p>
+                </div>
+            </a>
+
         </section>
-        
+
 
     </main>
     <footer class="contact" id="contact-me">
-        <h2>Contact Me</h2>
         <div>
             <address class="address">
-                <a href="https://github.com/Ross-White">GitHub</a>
-                <a href="https://www.linkedin.com/in/ross-white-b4751814b/">LinkedIn</a>
-                <a href="mailto:rosswhite@outlook.com">E-mail</a>
+                <a href="https://github.com/Ross-White"><i class="fab fa-github-square fa-2x"></i></a>
+                <a href="https://www.linkedin.com/in/ross-white-b4751814b/"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href="mailto:rosswhite@outlook.com">e-mail</a>
+                <a href="./assets/pictures/Ross_White_CV.pdf" download target="_blank">C.V.</a>
             </address>
         </div>
     </footer>
