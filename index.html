@@ -1,60 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio: Ross White</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
     <link rel="stylesheet" href="assets/style.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <h1>Ross White</h1>
-        <a class="row" href="./assets/pictures/Ross_White_CV.pdf" dowload>
-            <img src="assets\pictures\avatar-img.jpg" alt="Ross White profile pic" style="height: 100px;" class="avatar-img">
+        <a class="row" href="./assets/pictures/Ross_White_CV.pdf" download>
+            <img src="assets\pictures\avatar-img.jpg" alt="Ross White profile pic" style="height: 100px;"
+                class="avatar-img">
             <h3>C.V.</h3>
-        </a>      
+        </a>
     </header>
 
     <main>
-        <section class="columns section about-me" id="about-me">
-            <h2 class="column is-3">About Me</h2>
-            <div class="column">
-                <p class="bio-text">My name is Ross White, I am an aspiring web developer. Since 2009 I have been working in the hospitality industry, working as a Restaurant Manager, most recently at Hawksmoor Manchester.</p>
-                <p class="bio-text">The Covid-19 pandemic gave me time to reassess my career, and think about what would inspire me for many years to come. I looked into the option of becoming a web developer and chose a bootcamp as the best way for me to learn the skills that would allow me to start a new career.</p>
+
+        <section class="grid grid-cols-1 md:grid-cols-4 grid-rows-2 gap-4 p-4" id="about-me">
+            <h2 class="float-left">About Me</h2>
+            <div class="col-span-3">
+                <p class="bio-text">My name is Ross White, coding bootcamp graduate. Full stack web developer using
+                    Node, MySQL, Sequelize, Express. </p>
+                <p class="bio-text">Previously over 10 years management expereince in the hospitality industry. My
+                    expertise encompasses recruiting, training and developing teams of 20 to produce outstanding results
+                    that receives awards. I pride myself on my stakeholder management, workflow coordination and
+                    communication skills in fast-moving environments, with an ability to work well under pressure. </p>
             </div>
         </section>
 
-        <section class="container section tile is-ancestor" id="work">
-            <div class="tile is-parent is-3">
-                <div class="tile is-child">
-                    <h2>Work</h2>
-                </div>
+        <section class="grid grid-cols-1 md:grid-cols-4 grid-rows-3 gap-4 p-4" id="work">
+            <div class="float-left row-span-2">
+                <h2>Work</h2>
             </div>
-            <div class="tile is-5 is-parent">
-                <a href="https://ross-white.github.io/team-trol/" target="_blank"class="tile is-child box work-item WWWT">
-                    <h3>WWWT</h3>
-                </a>
-            </div>   
-            <div class="tile is-4 is-vertical is-parent">
-                <a href="https://ross-white.github.io/Weather-Dashboard/" target="_blank"class="tile is-child box work-item weather">
-                    <h3>Weather Dashboard</h3>
-                </a>
-                <a href="https://ross-white.github.io/Code-Quiz/" target="_blank"class="tile is-child box work-item code">
-                    <h3>Code Quiz</h3>
-                </a>
-                <div class="tile">
-                    <div class="tile is-parent">
-                        <a href="#"class="tile is-child box work-item soon">
-                            <h3>Coming Soon</h3>
-                        </a>
-                    </div>
-                    <div class="tile is-parent">
-                        <a href="#"class="tile is-child box work-item soon">
-                            <h3>Coming Soon</h3>
-                        </a>
-                    </div>
+            <a href="https://ross-white.github.io/team-trol/" target="_blank" class="">
+                <article class="opacity-75 hover:opacity-100 bg-green-400 rounded h-60 shadow"
+                    style="background-image: url(../assets/pictures/WWWT.png); background-size: cover;">
+                    <h3 class="p-5 bg-gray-200 text-gray-600 font-black tracking-widest">WWWT</h3>
+                </article>
+            </a>
+            <a href="https://ross-white.github.io/Weather-Dashboard/" target="_blank">
+                <article class="opacity-75 hover:opacity-100 bg-green-400 rounded h-60 shadow"
+                    style="background-image: url(../assets/pictures/weather_dashboard.png); background-size: cover;">
+                    <h3 class="p-2 bg-gray-200 text-gray-600 font-black tracking-widest">Weather Dashboard</h3>
+                </article>
+            </a>
+            <a href="https://ross-white.github.io/Code-Quiz/"" target=" _blank">
+                <article class="opacity-75 hover:opacity-100 bg-green-400 rounded h-60 shadow"
+                    style="background-image: url(../assets/pictures/code_quiz.png); background-size: cover;">
+                    <h3 class="p-2 bg-gray-200 text-gray-600 font-black tracking-widest">Code Quiz</h3>
+                </article>
+            </a>
+            <a href="https://gum-free.herokuapp.com/" target=" _blank">
+                <article class="opacity-75 hover:opacity-100 bg-green-400 rounded h-60 shadow"
+                    style="background-image: url(../assets/pictures/gumfree.png); background-size: cover;">
+                    <h3 class="p-2 bg-gray-200 text-gray-600 font-black tracking-widest">GumFree</h3>
+                </article>
+            </a>
+            <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                <img class="w-full lazy" src="Portfolio\assets\pictures\gumfree.png" alt="Mountain">
+                <div class="px-6 py-4">
+                  <div class="font-bold text-xl mb-2">Mountain</div>
+                  <p class="text-gray-700 text-base">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                  </p>
                 </div>
             </div>
         </section>
@@ -72,4 +86,5 @@
     </footer>
 
 </body>
+
 </html>
