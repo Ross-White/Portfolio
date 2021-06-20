@@ -26,13 +26,6 @@ header {
     height: 20vh;
 }
 
-header > a {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    font-size: 3em;
-    color: var(--primary);
-}
 
 h1 {
     font-size: 6em;
@@ -42,10 +35,6 @@ h2 {
     margin-bottom: 10px;
     text-align: center;
     font-size: 3em;
-}
-
-.avatar-img {
-    border-radius: 50%;
 }
 
 main {
@@ -62,58 +51,22 @@ footer {
     align-items: center;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     margin-left: 2%;
     margin-right: 2%;
-}
-
-footer > h2 {
-    flex: 0 0 20%;
-    text-align: right;
-    border-right: 3px;
-    margin-right: 5%;
+    height: 10vh;
 }
 
 .address > a {
-    margin-right: 20px;
+    margin: 20px;
     color: var(--primary);
-    font-size: 2em;
+    font-size: 3em;
+    font-style: normal;
 }
 
 .bio-text {
     font-size: 2em;
     text-justify: distribute;
-}
-
-.work-item {
-    min-height: 150px;
-    border: 5px solid var(--secondary);
-    background-color: black;
-    text-align: center;
-    background-size: 100%;
-    font-size: 3em;
-    color: var(--primary);
-    text-decoration: underline;
-    text-shadow: 2px 2px var(--secondary);
-}
-
-.WWWT {
-     background-image: url("../assets/pictures/WWWT.png");
-     background-position: center;
-     background-repeat: no-repeat;
-     background-size: cover;
-}
-
-.weather {
-    background-image: url("../assets/pictures/weather_dashboard.png");
-}
-
-.code {
-    background-image: url("../assets/pictures/code_quiz.png");
-}
-
-.soon {
-    background-image: url("../assets/pictures/code-img.jpg");
 }
 
 /* Tablet layout, min screen width 700px */
