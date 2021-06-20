@@ -58,7 +58,7 @@ footer {
 }
 
 .address > a {
-    margin: 20px;
+    margin: 10px;
     color: var(--primary);
     font-size: 3em;
     font-style: normal;
